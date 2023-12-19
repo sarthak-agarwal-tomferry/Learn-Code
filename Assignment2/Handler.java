@@ -1,11 +1,11 @@
 public class Handler {
     public static void main(String[] args) {
         Helper helper = new Helper();
-        helper.integer1 = 10;
-        helper.integer2 = 20.5;
-        helper.upperCaseString = "hello";
+        helper.operand1 = 10;
+        helper.operand2 = 20.5;
+        helper.upperCaseText = "hello";
         
-        helper.calculateSum(helper.integer1, 5);
+        helper.calculateSum(helper.operand1, 5);
         helper.convertToUpperCase("world");
     }
 }
